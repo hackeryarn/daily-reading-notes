@@ -1,3 +1,4 @@
 ---
 title: Principles
+days: principles
 ---
