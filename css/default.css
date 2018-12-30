@@ -6,6 +6,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: 'DDINRegular';
+  margin: auto;
   color: #020;
   background: #fefffe;
   min-height: 100%;
@@ -66,7 +67,7 @@ article .header {
     padding: 0 5%;
   }
   header {
-    margin: 4.2rem 0;
+    margin: 1rem 0;
   }
   nav {
     margin: 0 auto 1rem;
@@ -95,7 +96,7 @@ article .header {
     padding: 0 5%;
   }
   header {
-    margin: 4.2rem 0;
+    margin: 1rem 0;
   }
   nav {
     margin: 0 auto 1rem;
