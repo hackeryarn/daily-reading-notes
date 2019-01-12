@@ -21,11 +21,19 @@ nav {
   text-align: right;
 }
 
+a {
+  text-decoration: none;
+  color: #16982B;
+}
+
+a:hover {
+  opacity: .5;
+  transition: opacity .15s ease-in;
+}
+
 nav a {
   font-size: 1.5rem;
-  color: #020;
   font-weight: bold;
-  text-decoration: none;
   text-transform: uppercase;
 }
 
