@@ -2,5 +2,7 @@
 title: Contact
 ---
 
-I live in a small hut in the mountains of Kumano Kodō on Kii Hantō and would not
-like to be contacted.
+You can find me more from me at:
+
+- [Twitter](https://twitter.com/hackeryarn)
+- [Personal Blog](https://hackeryarn.com/)
