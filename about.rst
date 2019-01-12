@@ -1,17 +1,11 @@
 ---
 title: About
 ---
-Nullam imperdiet sodales orci vitae molestie. Nunc quam orci, pharetra a
-rhoncus vitae, eleifend id felis. Suspendisse potenti. Etiam vitae urna orci.
-Quisque pellentesque dignissim felis, egestas tempus urna luctus vitae. In hac
-habitasse platea dictumst. Morbi fringilla mattis odio, et mattis tellus
-accumsan vitae.
+I use this site to write my daily reading notes for books that I learn from and
+which influence me. You can expect a short post on the key themes, what I've
+learned, or how my thinking has changed because of what I read.
 
-1. Amamus Unicode 碁
-2. Interdum nex magna.
-
-Vivamus eget mauris sit amet nulla laoreet lobortis. Nulla in diam elementum
-risus convallis commodo. Cras vehicula varius dui vitae facilisis. Proin
-elementum libero eget leo aliquet quis euismod orci vestibulum. Duis rhoncus
-lorem consequat tellus vestibulum aliquam. Quisque orci orci, malesuada porta
-blandit et, interdum nec magna.
+Because I condense tens of pages into a few paragraphs there is no way I can do
+justice to even the main ideas of the book. If you find any of the notes
+interesting, I encourage you to read the book for yourself and compare your
+ideas with mine.
