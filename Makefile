@@ -1,6 +1,4 @@
 deploy:
-	# Verify correct branch
-	git checkout develop
 	# Build new files
 	stack exec myblog clean
 	stack exec myblog build
