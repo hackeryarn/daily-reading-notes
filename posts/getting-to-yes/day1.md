@@ -6,6 +6,7 @@ img: getting-to-yes.jpeg
 link: https://amzn.to/2P4fWyU
 ---
 
+We negotiate every day. Everything from a pay raise, to what to have for dinner
 is a negotiation. The only thing that changes is the stakes.
 
 We generally view negotiations as having two outcomes. Either we give something
