@@ -1,7 +1,7 @@
 ---
 title: Principles
 day: 22
-date: 2019-1-16
+date: 2019-01-16
 img: principles.jpg
 link: https://amzn.to/2SEysjr
 ---
