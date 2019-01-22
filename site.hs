@@ -38,6 +38,7 @@ main = do
               constField "title" "Archives" `mappend`
               defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/archive.html" archiveCtx >>=
+          loadAndApplyTemplate "templates/measure.html" defaultContext >>=
           loadAndApplyTemplate "templates/default.html" archiveCtx >>=
           relativizeUrls
     match "index.html" $ do
