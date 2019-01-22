@@ -16,10 +16,10 @@ main = do
     match "css/*" $ do
       route idRoute
       compile compressCssCompiler
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.md", "contact.md"]) $ do
       route $ setExtension "html"
       compile $
-        pandocCompiler >>=
+        pandocCompiler >>= loadAndApplyTemplate "templates/measure.html" defaultContext >>=
         loadAndApplyTemplate "templates/default.html" defaultContext >>=
         relativizeUrls
     match "posts/*/*" $ do

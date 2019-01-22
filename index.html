@@ -2,10 +2,10 @@
 title: Home
 ---
 
-<div class="cf ph2-ns">
-  <div class="fl w-100 w-two-thirds-ns ph4">
-    <h2>Welcome</h2>
+<div class="measure measure-wide-ns center dib fl-ns mr5-ns">
+  <h2 class="f3">Welcome</h2>
 
+  <div class="lh-copy">
     <p>
       I use this site to write my daily reading notes for books that I learn from
       and influence me. You can expect a short post on the key themes, what
@@ -18,11 +18,14 @@ title: Home
       compare your ideas with mine.
     </p>
   </div>
+</div>
 
-  <div class="fl w-100 w-third-ns ph4">
-    <h2>Recent Posts</h2>
-    $partial("templates/post-list.html")$
+<div class="measure measure-wide-ns center dib fl-ns lh-copy">
+  <h2 class="f3">Recent Posts</h2>
+  $partial("templates/post-list.html")$
 
-    <p>…or you can find more in the <a href="/archive.html">archives</a>.</p>
-  </div>
+  <p>
+    …or you can find more in the
+    <a class="link dim primary" href="/archive.html">archives</a>.
+  </p>
 </div>
