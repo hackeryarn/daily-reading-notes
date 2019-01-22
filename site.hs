@@ -19,7 +19,8 @@ main = do
     match (fromList ["about.md", "contact.md"]) $ do
       route $ setExtension "html"
       compile $
-        pandocCompiler >>= loadAndApplyTemplate "templates/measure.html" defaultContext >>=
+        pandocCompiler >>=
+        loadAndApplyTemplate "templates/measure.html" defaultContext >>=
         loadAndApplyTemplate "templates/default.html" defaultContext >>=
         relativizeUrls
     match "posts/*/*" $ do
