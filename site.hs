@@ -16,7 +16,12 @@ main = do
     match "css/*" $ do
       route idRoute
       compile compressCssCompiler
-    match (fromList ["about.md", "contact.md"]) $ do
+    match "contact.html" $ do
+      route idRoute
+      compile $
+        getResourceBody >>=
+          loadAndApplyTemplate "templates/default.html" defaultContext
+    match "about.md" $ do
       route $ setExtension "html"
       compile $
         pandocCompiler >>=
@@ -38,7 +43,7 @@ main = do
               constField "title" "Archives" `mappend`
               defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/archive.html" archiveCtx >>=
-          loadAndApplyTemplate "templates/measure.html" defaultContext >>=
+          loadAndApplyTemplate "templates/measure.html" archiveCtx >>=
           loadAndApplyTemplate "templates/default.html" archiveCtx >>=
           relativizeUrls
     match "index.html" $ do
