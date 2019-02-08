@@ -4,3 +4,4 @@ cabal.sandbox.config
 dist/
 _cache
 _site
+Session.vim
