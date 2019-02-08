@@ -2,6 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import           Data.Monoid     (mappend)
+import           Debug.Trace
 import qualified GHC.IO.Encoding as E
 import           Hakyll
 
@@ -20,7 +21,7 @@ main = do
       route idRoute
       compile $
         getResourceBody >>=
-          loadAndApplyTemplate "templates/default.html" defaultContext
+        loadAndApplyTemplate "templates/default.html" defaultContext
     match "about.md" $ do
       route $ setExtension "html"
       compile $
@@ -28,6 +29,16 @@ main = do
         loadAndApplyTemplate "templates/measure.html" defaultContext >>=
         loadAndApplyTemplate "templates/default.html" defaultContext >>=
         relativizeUrls
+    match "posts/*" $ do
+      route $ setExtension "html"
+      compile $ do
+        filepath <- getResourceFilePath
+        posts <- recentFirst =<< loadAll (getBookFolder filepath)
+        let bookCtx = listField "posts" postCtx (return posts) <> defaultContext
+        getResourceBody >>= applyAsTemplate bookCtx >>=
+          loadAndApplyTemplate "templates/book.html" bookCtx >>=
+          loadAndApplyTemplate "templates/default.html" bookCtx >>=
+          relativizeUrls
     match "posts/*/*" $ do
       route $ setExtension "html"
       compile $
@@ -39,8 +50,8 @@ main = do
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
         let archiveCtx =
-              listField "posts" postCtx (return posts) `mappend`
-              constField "title" "Archives" `mappend`
+              listField "posts" postCtx (return posts) <>
+              constField "title" "Archives" <>
               defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/archive.html" archiveCtx >>=
           loadAndApplyTemplate "templates/measure.html" archiveCtx >>=
@@ -51,8 +62,8 @@ main = do
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
         let indexCtx =
-              listField "posts" postCtx (return $ take 10 posts) `mappend`
-              constField "title" "Home" `mappend`
+              listField "posts" postCtx (return $ take 10 posts) <>
+              constField "title" "Home" <>
               defaultContext
         getResourceBody >>= applyAsTemplate indexCtx >>=
           loadAndApplyTemplate "templates/default.html" indexCtx >>=
@@ -62,3 +73,6 @@ main = do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx = defaultContext
+
+getBookFolder :: FilePath -> Pattern
+getBookFolder = fromGlob . (++ "/*") . takeWhile (/= '.') . drop 3 . show
