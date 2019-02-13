@@ -1,37 +1,25 @@
 ---
 title: How to Fail at Almost Everything and Still Win Big
 day: 1
-date: 2019-02-11
+date: 2019-02-12
 img: how-to-fail.jpg
 link: https://amzn.to/2E7Fglo
 ---
 
-The myth keeps the same purpose through its evolutions. As society
-changed, it needed different rituals to band its people together.
+Passion is bullshit. Nobody has been passionate about something they are
+bad at. People are passionate about things they are good at.
 
-When tribes were afraid of the predators around them, they had great heroes
-to
-protect them. When villages struggled with the changing seasons, they had
-ceremonies and gods to prepare them for the season. When the basic needs were
-met and society started wondering about the afterlife, they invented
-explanations and trials for the after life. Each cycle produces greater
-understanding and bring together a greater number of people.
+People hate frustration. They will do anything to avoid embarrassment. That's why
+people enjoy things they are good at. It's not the passion that made them good
+at those things. It's being good that made them passionate.
 
-The challenge today is bringing together the entire world. We need to get rid
-of the cultural barriers that held together smaller tribes. These barriers
-were
-useful at one time. Now, they are preventing us from coming together in
-peace.
+Passion builds when they get excited about the prospects of what to come.
+That's when you want to put in the late hour. That's when you
+are willing to dedicate yourself to the task. However, passion dies if nothing
+good is coming from the activity. Passion is a great answer for how you got
+here.
 
-Another ogre we must face today is the extreme focus on the self. As the
-world
-grows larger it's easier for individuals to lose touch with society. If they
-withdraw within unprepared, they become isolated. They get stuck in the early
-stages of life. They can't reach their full potential. Before, societies had
-rituals for helping with progression, but they have been forgotten.
-
-We must bring forth a new kind of myth. A myth that will remind everyone that
-we are
-one with the society around us. We are born into society. We can't survive
-without society, and it can't survive without us. Despite the size of the
-world, we are all still one.
+No one wants to say they got here through dumb luck. They don't want to say
+they worked hard because it would make them rich. They don't want to
+come off overconfident and say it's because they are just that good. Passion is
+the easy response because it's something anyone can possess.
