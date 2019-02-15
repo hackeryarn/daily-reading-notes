@@ -64,7 +64,7 @@ main = do
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
         books <- recentFirst =<< loadAll "posts/*"
-        let allPosts = (return (posts ++ books))
+        let allPosts = return (posts ++ books)
         let sitemapCtx =
               listField "entries" defaultContext allPosts <> defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
