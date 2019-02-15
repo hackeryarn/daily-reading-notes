@@ -15,3 +15,6 @@ deploy:
 	# Restoration
 	git checkout develop
 	git branch -D master
+
+local:
+	stack exec site watch

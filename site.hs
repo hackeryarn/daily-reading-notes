@@ -49,20 +49,33 @@ main = do
       route idRoute
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
+        books <- recentFirst =<< loadAll "posts/*"
         let archiveCtx =
-              listField "posts" postCtx (return posts) <>
+              listField "posts" defaultContext (return posts) <>
+              listField "books" defaultContext (return books) <>
               constField "title" "Archives" <>
               defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/archive.html" archiveCtx >>=
           loadAndApplyTemplate "templates/measure.html" archiveCtx >>=
           loadAndApplyTemplate "templates/default.html" archiveCtx >>=
           relativizeUrls
+    create ["sitemap.xml"] $ do
+      route idRoute
+      compile $ do
+        posts <- recentFirst =<< loadAll "posts/*/*"
+        books <- recentFirst =<< loadAll "posts/*"
+        let allPosts = (return (posts ++ books))
+        let sitemapCtx =
+              listField "entries" defaultContext allPosts <> defaultContext
+        makeItem "" >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
     match "index.html" $ do
       route idRoute
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
+        books <- recentFirst =<< loadAll "posts/*"
         let indexCtx =
-              listField "posts" postCtx (return $ take 10 posts) <>
+              listField "posts" defaultContext (return $ take 5 posts) <>
+              listField "books" defaultContext (return $ take 5 books) <>
               constField "title" "Home" <>
               defaultContext
         getResourceBody >>= applyAsTemplate indexCtx >>=
