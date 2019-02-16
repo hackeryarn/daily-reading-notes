@@ -68,7 +68,7 @@ main = do
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
         books <- recentFirst =<< loadAll "posts/*"
-        let allPosts = (return (books ++ posts))
+        let allPosts = return (posts ++ books)
         let sitemapCtx =
               listField "entries" defaultContext allPosts <>
               constField "today" today <>
