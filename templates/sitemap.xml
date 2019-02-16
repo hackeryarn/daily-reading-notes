@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://dailyreadingnotes.com/index.html</loc>
+      <lastmod>$today$</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1</priority>
+   </url>
+   <url>
+      <loc>https://dailyreadingnotes.com/archive.html</loc>
+      <lastmod>$today$</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://dailyreadingnotes.com/contact.html</loc>
+      <lastmod>$today$</lastmod>
+   </url>
+   <url>
+      <loc>https://dailyreadingnotes.com/about.html</loc>
+      <lastmod>$today$</lastmod>
+   </url>
 $for(entries)$
     <url>
         <loc>https://dailyreadingnotes.com$url$</loc>

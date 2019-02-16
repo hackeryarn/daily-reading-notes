@@ -1,15 +1,19 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 
-import           Data.Monoid     (mappend)
+import           Data.Monoid        (mappend)
+import           Data.Time.Calendar
+import           Data.Time.Clock
 import           Debug.Trace
-import qualified GHC.IO.Encoding as E
+import qualified GHC.IO.Encoding    as E
 import           Hakyll
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = do
   E.setLocaleEncoding E.utf8
+  today <- getTodaysDate
+  print today
   hakyll $ do
     match "images/*" $ do
       route idRoute
@@ -64,9 +68,11 @@ main = do
       compile $ do
         posts <- recentFirst =<< loadAll "posts/*/*"
         books <- recentFirst =<< loadAll "posts/*"
-        let allPosts = (return (posts ++ books))
+        let allPosts = (return (books ++ posts))
         let sitemapCtx =
-              listField "entries" defaultContext allPosts <> defaultContext
+              listField "entries" defaultContext allPosts <>
+              constField "today" today <>
+              defaultContext
         makeItem "" >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
     match "index.html" $ do
       route idRoute
@@ -89,3 +95,8 @@ postCtx = defaultContext
 
 getBookFolder :: FilePath -> Pattern
 getBookFolder = fromGlob . (++ "/*") . takeWhile (/= '.') . drop 3 . show
+
+getTodaysDate :: IO String
+getTodaysDate = do
+  (year, month, day) <- getCurrentTime >>= return . toGregorian . utctDay
+  return $ show year ++ "-" ++ show month ++ "-" ++ show day
