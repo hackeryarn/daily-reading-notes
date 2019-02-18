@@ -98,5 +98,5 @@ getBookFolder = fromGlob . (++ "/*") . takeWhile (/= '.') . drop 3 . show
 
 getTodaysDate :: IO String
 getTodaysDate = do
-  (year, month, day) <- getCurrentTime >>= return . toGregorian . utctDay
+  (year, month, day) <- toGregorian . utctDay <$> getCurrentTime
   return $ show year ++ "-" ++ show month ++ "-" ++ show day
