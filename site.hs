@@ -13,7 +13,6 @@ main :: IO ()
 main = do
   E.setLocaleEncoding E.utf8
   today <- getTodaysDate
-  print today
   hakyll $ do
     match "images/*" $ do
       route idRoute
