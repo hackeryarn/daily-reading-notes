@@ -4,6 +4,7 @@
 import           Data.Monoid        (mappend)
 import           Data.Time.Calendar
 import           Data.Time.Clock
+import Data.Time.Format
 import           Debug.Trace
 import qualified GHC.IO.Encoding    as E
 import           Hakyll
@@ -98,5 +99,5 @@ getBookFolder = fromGlob . (++ "/*") . takeWhile (/= '.') . drop 3 . show
 
 getTodaysDate :: IO String
 getTodaysDate = do
-  (year, month, day) <- getCurrentTime >>= return . toGregorian . utctDay
-  return $ show year ++ "-" ++ show month ++ "-" ++ show day
+  currentTime <- getCurrentTime
+  return $ formatTime defaultTimeLocale "%Y-%m-%d" currentTime
