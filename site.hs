@@ -4,7 +4,7 @@
 import           Data.Monoid        (mappend)
 import           Data.Time.Calendar
 import           Data.Time.Clock
-import Data.Time.Format
+import           Data.Time.Format
 import           Debug.Trace
 import qualified GHC.IO.Encoding    as E
 import           Hakyll
@@ -14,7 +14,6 @@ main :: IO ()
 main = do
   E.setLocaleEncoding E.utf8
   today <- getTodaysDate
-  print today
   hakyll $ do
     match "images/*" $ do
       route idRoute
@@ -98,6 +97,4 @@ getBookFolder :: FilePath -> Pattern
 getBookFolder = fromGlob . (++ "/*") . takeWhile (/= '.') . drop 3 . show
 
 getTodaysDate :: IO String
-getTodaysDate = do
-  currentTime <- getCurrentTime
-  return $ formatTime defaultTimeLocale "%Y-%m-%d" currentTime
+getTodaysDate = formatTime defaultTimeLocale "%Y-%m-%d" <$> getCurrentTime

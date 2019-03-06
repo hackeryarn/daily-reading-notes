@@ -11,8 +11,8 @@ or history. Only a portion of the story is made important. Secondary meanings
 were layered over the original. This takes away from the lessons myths are
 meant to teach us.
 
-They should show us the cycles of life. We see that we must answer the
-calls for adventure full heartedly. Embark on an adventure despite the great
+They should show us the cycles of life. Through them we see that our duty is to
+answer the call of adventure full heartedly. We much persevere despite the great
 obstacles that we face. It's at the worst of times that we win the ultimate
-prize. We are reborn into a better versions of ourselves. The version that's
+prize and become reborn into a better versions of ourselves. The version that's
 needed to change the world.
