@@ -1,5 +1,5 @@
-.ddin-regular {
-  font-family: 'DDINRegular';
+.crimson {
+  font-family: 'Crimson Text';
 }
 
 .alex-brush {
@@ -7,5 +7,10 @@
 }
 
 .primary {
-  color: #16982B;
+  color: hsl(130, 75%, 34%);
 }
+
+.font {
+  color: hsl(130, 90%, 10%);
+}
+
