@@ -6,14 +6,14 @@ img: quiet.jpg
 link: https://amzn.to/2WU7mXS
 ---
 
-The culture is extroverts has spread far and wide. From the seminars and books
+The culture of extroverts has spread far and wide. From the seminars and books
 of Tony Robbins that influence over 50 million people, to the Harvard Business
 school which produces the bulk of corporate leadership.
 
-It has gone so far that being an extrovert isn't enough. You must go as far as
-knowing how to sell yourself in all situation, even just passing someone down
-the hall. That's why people pay tens of thousands of dollars to attend a seminars
-that teach how to sell themselves as the only path to success.
+It has gone so far that being an extrovert isn't enough. You must knowing how to
+sell yourself in all situation, even just passing someone down the hall. That's
+why people see paying tens of thousands of dollars to attend a seminar as their
+only path to success.
 
 In the corporate setting, teamwork has become such an intricate part that
 Harvard Business School pre-assigns study groups. Students are deemed as
