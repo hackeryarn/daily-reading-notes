@@ -6,8 +6,20 @@
   font-family: 'AlexBrushRegular';
 }
 
+.background {
+    background-color: hsl(130, 5%, 95%);
+}
+
 .primary {
   color: hsl(130, 75%, 34%);
+}
+
+.border-top {
+    border-color: hsl(130, 6%, 74%);
+}
+
+.border-bottom {
+    border-color: hsl(130, 3%, 97%);
 }
 
 .font {
