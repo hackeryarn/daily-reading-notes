@@ -5,15 +5,6 @@ date: 2019-05-11
 img: the-magic-of-thinking-big.jpg
 link: https://www.amazon.com/Magic-Thinking-Big-David-Schwartz-ebook/dp/B00NGZIR92
 ---
-eric algebra as
-the body of the fold, which determines how the collections is accumulated. We
-want to use something that is over all generic and works the same no matter the
-data structure.
-**** Haskell
-When looking for a better abstraction for your algorithm consider a polytypical
-case. A definition that supports the polytipical implementation will support
-the single type implementation, and communicate the intent clearer for all
-cases.
 
 Traditional thinkers are quick to shut down new ideas. They believe that the
 status quo is so because it's the best idea, not because it came first. In their
