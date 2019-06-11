@@ -1,5 +1,5 @@
 ---
-title: Getting to Yes
+title: Getting Past No
 date: 2019-06-11
 img: getting-past-no.jpg
 link: https://www.amazon.com/Getting-Past-Negotiating-Difficult-Situations/dp/0553371312
