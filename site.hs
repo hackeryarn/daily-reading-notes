@@ -25,7 +25,9 @@ main = do
       route idRoute
       compile $
         getResourceBody >>=
-        loadAndApplyTemplate "templates/default.html" defaultContext
+        loadAndApplyTemplate "templates/measure.html" defaultContext >>=
+        loadAndApplyTemplate "templates/default.html" defaultContext >>=
+        relativizeUrls
     match "about.md" $ do
       route $ setExtension "html"
       compile $
