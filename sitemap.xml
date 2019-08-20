@@ -2,24 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-06-25</lastmod>
+      <lastmod>2019-08-20</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-06-25</lastmod>
+      <lastmod>2019-08-20</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-06-25</lastmod>
+      <lastmod>2019-08-20</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-06-25</lastmod>
+      <lastmod>2019-08-20</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day7.html</loc>
+        <lastmod>2019-08-17</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day6.html</loc>
+        <lastmod>2019-08-16</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day5.html</loc>
+        <lastmod>2019-08-14</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day4.html</loc>
+        <lastmod>2019-08-12</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day3.html</loc>
+        <lastmod>2019-08-11</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day2.html</loc>
+        <lastmod>2019-08-07</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day1.html</loc>
+        <lastmod>2019-08-06</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day6.html</loc>
+        <lastmod>2019-07-31</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day5.html</loc>
+        <lastmod>2019-07-29</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day4.html</loc>
+        <lastmod>2019-07-27</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day3.html</loc>
+        <lastmod>2019-07-26</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day2.html</loc>
+        <lastmod>2019-07-25</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style/day1.html</loc>
+        <lastmod>2019-07-24</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day13.html</loc>
+        <lastmod>2019-07-23</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day12.html</loc>
+        <lastmod>2019-07-21</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day11.html</loc>
+        <lastmod>2019-07-18</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day10.html</loc>
+        <lastmod>2019-07-14</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day9.html</loc>
+        <lastmod>2019-07-11</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day8.html</loc>
+        <lastmod>2019-07-10</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day7.html</loc>
+        <lastmod>2019-07-09</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day6.html</loc>
+        <lastmod>2019-07-05</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day5.html</loc>
+        <lastmod>2019-07-02</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day4.html</loc>
+        <lastmod>2019-06-30</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day3.html</loc>
+        <lastmod>2019-06-27</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day2.html</loc>
+        <lastmod>2019-06-26</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants/day1.html</loc>
+        <lastmod>2019-06-25</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/getting-past-no/day6.html</loc>
@@ -654,6 +784,21 @@
     <url>
         <loc>https://dailyreadingnotes.com/posts/it-doesnt-have-to-be-crazy-at-work/day1.html</loc>
         <lastmod>2018-10-31</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism.html</loc>
+        <lastmod>2019-08-06</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/elements-of-style.html</loc>
+        <lastmod>2019-07-24</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/small-giants.html</loc>
+        <lastmod>2019-06-25</lastmod>
     </url>
 
     <url>
