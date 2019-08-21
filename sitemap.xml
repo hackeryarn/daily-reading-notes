@@ -2,24 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-08-20</lastmod>
+      <lastmod>2019-08-21</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-08-20</lastmod>
+      <lastmod>2019-08-21</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-08-20</lastmod>
+      <lastmod>2019-08-21</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-08-20</lastmod>
+      <lastmod>2019-08-21</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day9.html</loc>
+        <lastmod>2019-08-20</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/essentialism/day8.html</loc>
+        <lastmod>2019-08-19</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/essentialism/day7.html</loc>
