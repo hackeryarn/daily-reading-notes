@@ -2,24 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-08-23</lastmod>
+      <lastmod>2019-08-29</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-08-23</lastmod>
+      <lastmod>2019-08-29</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-08-23</lastmod>
+      <lastmod>2019-08-29</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-08-23</lastmod>
+      <lastmod>2019-08-29</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/the-happy-body/day1.html</loc>
+        <lastmod>2019-08-28</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/essentialism/day10.html</loc>
@@ -799,6 +804,11 @@
     <url>
         <loc>https://dailyreadingnotes.com/posts/it-doesnt-have-to-be-crazy-at-work/day1.html</loc>
         <lastmod>2018-10-31</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/the-happy-body.html</loc>
+        <lastmod>2019-08-28</lastmod>
     </url>
 
     <url>
