@@ -30,6 +30,7 @@ will gain it back because all of those are temporary measures. The only
 sustainable way to loose weight is to change your lifestyle.
 
 There are 5 ways to boost your metabolism and increase weight loss:
+
 1. Gain muscle because more muscle will burn more fat.
 2. Eat every 3 hours but only enough food so you are hungry the last hour.
    That last hour becomes your fat burning zone.

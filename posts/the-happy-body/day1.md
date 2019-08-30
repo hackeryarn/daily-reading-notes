@@ -11,6 +11,7 @@ the mind. If you can enter flow every workout, it become a mediation practice
 with physical benefits.
 
 Youthfulness is determined by:
+
 1. Flexibility
 2. Strength
 3. Speed
@@ -27,6 +28,7 @@ their brain is conditioned better than yours. This level of mind body connection
 only comes through repetition.
 
 Any physical movement consists of three phases:
+
 1. The flexibility to perform the movement correctly.
 2. The strength to perform the movement under an appropriate load.
 3. The speed to perform the movement in the correct amount of time.
