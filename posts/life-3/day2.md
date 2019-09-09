@@ -1,5 +1,5 @@
 ---
-title: life 3.0
+title: Life 3.0
 day: 2
 date: 2019-09-09
 img: life-3.jpg
