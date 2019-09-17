@@ -2,24 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-09-12</lastmod>
+      <lastmod>2019-09-17</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-09-12</lastmod>
+      <lastmod>2019-09-17</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-09-12</lastmod>
+      <lastmod>2019-09-17</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-09-12</lastmod>
+      <lastmod>2019-09-17</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/life-3/day5.html</loc>
+        <lastmod>2019-09-16</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/life-3/day4.html</loc>
