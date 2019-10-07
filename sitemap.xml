@@ -2,24 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2019-10-07</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2019-10-07</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2019-10-07</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-10-01</lastmod>
+      <lastmod>2019-10-07</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/stillness-is-the-key/day1.html</loc>
+        <lastmod>2019-10-07</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/life-3/day16.html</loc>
+        <lastmod>2019-10-02</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/life-3/day15.html</loc>
@@ -889,6 +899,11 @@
     <url>
         <loc>https://dailyreadingnotes.com/posts/it-doesnt-have-to-be-crazy-at-work/day1.html</loc>
         <lastmod>2018-10-31</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/stillness-is-the-key.html</loc>
+        <lastmod>2019-10-07</lastmod>
     </url>
 
     <url>
