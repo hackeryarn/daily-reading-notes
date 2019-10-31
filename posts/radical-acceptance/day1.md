@@ -3,7 +3,7 @@ title: Radical Acceptance
 day: 1
 date: 2019-10-28
 img: radical-acceptance.jpg
-link: https://www.amazon.com/gp/product/B07MJ3TDCZ
+link: https://www.amazon.com/Radical-Acceptance-Embracing-Heart-Buddha/dp/0553380990
 ---
 
 A perpetual state of not being good enough drives much of our day to day
