@@ -2,24 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://dailyreadingnotes.com/index.html</loc>
-      <lastmod>2019-11-19</lastmod>
+      <lastmod>2019-11-26</lastmod>
       <changefreq>daily</changefreq>
       <priority>1</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/archive.html</loc>
-      <lastmod>2019-11-19</lastmod>
+      <lastmod>2019-11-26</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/contact.html</loc>
-      <lastmod>2019-11-19</lastmod>
+      <lastmod>2019-11-26</lastmod>
    </url>
    <url>
       <loc>https://dailyreadingnotes.com/about.html</loc>
-      <lastmod>2019-11-19</lastmod>
+      <lastmod>2019-11-26</lastmod>
    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/thinking-in-systems/day5.html</loc>
+        <lastmod>2019-11-24</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/thinking-in-systems/day4.html</loc>
+        <lastmod>2019-11-23</lastmod>
+    </url>
+
+    <url>
+        <loc>https://dailyreadingnotes.com/posts/thinking-in-systems/day3.html</loc>
+        <lastmod>2019-11-19</lastmod>
+    </url>
 
     <url>
         <loc>https://dailyreadingnotes.com/posts/thinking-in-systems/day2.html</loc>
